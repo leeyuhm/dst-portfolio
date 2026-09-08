@@ -36,9 +36,11 @@ The work examines how predictive accuracy and uncertainty change as the forecast
 `r04.1.R`  
 `knn.R`
 
-This investigation applies a method for selecting the number of neighbours in k-nearest-neighbour (k-NN) regression, motivated by the paper *Optimal Choice of k for k-Nearest Neighbor Regression*.
+This investigation applies a method for selecting the number of neighbours in k-nearest-neighbour (k-NN) regression, motivated by the following paper:
 
-The analysis includes:
+Azadkia, M. (2019), *Optimal Choice of k for k-Nearest Neighbor Regression* https://arxiv.org/abs/1909.05495
+
+The R analysis includes:
 
 - k-NN regression
 - Data-driven selection of `k`

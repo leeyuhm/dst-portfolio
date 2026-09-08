@@ -81,6 +81,30 @@ The experiment investigates the distinction between the theoretical representati
 
 ---
 
+## R10.3: CPU vs GPU matrix multiplication
+
+**Question:** How does matrix multiplication differ between CPU and massively parallel GPU implementations? What does this reveal about efficient parallel computation?
+
+This investigation examines general matrix-matrix multiplication (GEMM) as an example of how algorithmic complexity interacts with hardware architecture.
+
+The discussion covers:
+
+- The theoretical \(O(n^3)\) computational cost of dense matrix multiplication
+- CPU optimisation through blocking and cache reuse
+- Spatial and temporal locality in memory access
+- The importance of arithmetic intensity and reducing memory traffic
+- Multi-core CPU parallelism
+- GPU parallelism using large numbers of lightweight processing cores
+- The SIMT (single-instruction, multiple-thread) execution model
+- Memory-bandwidth limitations and the historical memory bottleneck in GPU computation
+- Modern GPU developments including improved cache hierarchies and Tensor Cores
+- Why dense matrix multiplication maps particularly well to massively parallel hardware
+- The greater difficulty of optimising sparse and irregular matrix multiplication
+
+The main conclusion is that computational performance depends not only on the number of arithmetic operations but also on data locality, memory-access patterns and the architecture on which an algorithm is executed. Dense matrix multiplication benefits strongly from blocking and predictable data reuse, whereas irregular or sparse workloads can make efficient use of caches and massively parallel hardware substantially more difficult.
+
+---
+
 ## Repository structure
 
 | File | Portfolio question | Focus |

@@ -25,7 +25,7 @@ The analysis includes:
 - Analysis of forecast-error variability
 - Parallelised repeated model evaluation using `foreach` and `doParallel`
 
-The work examines how predictive accuracy and uncertainty change as the forecasting horizon increases, and the limitations of using historical temperature data to extrapolate substantially into the future.
+The work examines how predictive accuracy and uncertainty change as the forecasting horizon increases and the limitations of using historical temperature data to extrapolate substantially into the future.
 
 ---
 
@@ -36,7 +36,7 @@ The work examines how predictive accuracy and uncertainty change as the forecast
 `r04.1.R`  
 `knn.R`
 
-This investigation applies a method for selecting the number of neighbours in k-nearest-neighbour regression, motivated by the paper *Optimal Choice of k for k-Nearest Neighbor Regression*.
+This investigation applies a method for selecting the number of neighbours in k-nearest-neighbour (k-NN) regression, motivated by the paper *Optimal Choice of k for k-Nearest Neighbor Regression*.
 
 The analysis includes:
 

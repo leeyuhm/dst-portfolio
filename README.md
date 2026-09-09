@@ -1,6 +1,6 @@
 # Data Science Toolbox portfolio
 
-Selected computational work from the University of Bristol's *Data Science Toolbox* module. This body of work was awarded with a first-class mark (82).
+Selected computational work from the University of Bristol's *Data Science Toolbox* module. This body of work was awarded a first-class mark (82).
 
 The module covered statistical modelling, machine learning, deep learning, computational methods and modern data-science workflows. The assessed portfolio required students to investigate selected long-form questions in greater depth, supported where appropriate by additional experiments and code.
 
